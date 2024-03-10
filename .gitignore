@@ -1,0 +1,56 @@
+HELP.md
+.gradle
+
+
+build/classes
+build/libs
+build/reports
+build/resources
+build/test-results
+build/tmp
+build/bootJarMainClassName
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+firebase-service-key.json
+
+### 로깅
+logs
+
+*.yml
+application.yml
+!application-prod.yml
+!deploy.yml
+!application-ci.yml
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
